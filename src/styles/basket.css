@@ -1,0 +1,17 @@
+.basket {
+ grid-area: 3 / 5 / 9 / 7;
+ background-color: burlywood;
+
+}
+.basketHeaderImg {
+
+    width: 25px;
+    margin-left: 5px;
+
+   
+}
+
+.basketTitle {
+    margin: 0;
+    font-size: 30px;
+}
