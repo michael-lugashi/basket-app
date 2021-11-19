@@ -1,10 +1,40 @@
 .groceries {
  grid-area: 3 / 2 / 9 / 4;
- background-color: blue;
- font-weight: 100;
+ font-family: sans-serif;
 }
 
-.groceriesTitle{
-    font-size: 30px;
-    margin: 0;
+.groceriesTitle {
+ font-size: 30px;
+ margin: 0;
+}
+
+.foodListItem {
+ list-style: none;
+ font-size: 17px;
+ background-color: #f0f0f0;
+ margin-top: 8px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+.foodListItem:nth-child(even) {
+ background-color: rgb(221, 221, 221) !important;
+}
+
+.foodList {
+ padding-inline-start: 0px;
+}
+
+.addToBasketBtn {
+ margin-left: 10px;
+ margin-right: 10px;
+ border: 3px solid white;
+ border-radius: 5px;
+ font-size: 20px;
+ color: white;
+ background-color: transparent;
+}
+
+.foodListItem:hover .addToBasketBtn{
+    background-color: rgb(1, 153, 1);
+    
 }

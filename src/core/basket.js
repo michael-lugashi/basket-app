@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/basket.css';
-import basket from '../assets/shopping-basket-img.png'
+import basket from '../assets/shopping-basket-img.png';
 
 class Basket extends React.Component {
  //   constructor(props) {
@@ -10,7 +10,10 @@ class Basket extends React.Component {
  render() {
   return (
    <div>
-    <h2 className="basketTitle"><img className="basketHeaderImg" src={basket} alt="Shoping Basket" /> Basket</h2>
+    <h2 className="basketTitle">
+     <img className="basketHeaderImg" src={basket} alt="Shoping Basket" />{' '}
+     Basket
+    </h2>
    </div>
   );
  }
