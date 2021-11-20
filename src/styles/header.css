@@ -1,8 +1,9 @@
 .header{
     background-color: #222222;
     grid-area: 1 / 1 / 2 / 9;
-    /* display: flex;
-    justify-content: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
 .title {

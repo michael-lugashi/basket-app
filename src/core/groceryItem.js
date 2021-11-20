@@ -8,7 +8,7 @@ class FoodItem extends React.Component {
  render() {
   return (
    <li className="foodListItem">
-    <button className="addToBasketBtn">+</button>
+    <button className="addToBasket">+</button>
     {this.props.foodItemName}
    </li>
   );
