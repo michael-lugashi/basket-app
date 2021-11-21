@@ -1,43 +1,18 @@
 import React from 'react';
 import '../styles/groceries.css';
-import FoodItem from './groceryItem.js';
+import GroceryList from './groceryList';
 
 class Groceries extends React.Component {
-   constructor(props) {
-     super(props);
-     this.state = { basketItemCount: 0 };
-   }
- groceryItems = [
-  'Strawberry',
-  'Blueberry',
-  'Orange',
-  'Banana',
-  'Apple',
-  'Carrot',
-  'Celery',
-  'Mushroom',
-  'Green',
-  'Pepper',
-  'Eggs',
-  'Cheese',
-  'Butter',
-  'Chicken',
-  'Beef',
-  'Pork',
-  'Fish',
-  'Rice',
-  'Pasta',
-  'Bread',
- ];
  render() {
   return (
    <div>
     <h2 className="groceriesTitle">🥬 Groceries</h2>
-    <ul className="foodList">
-        {this.groceryItems.map(item=>{
-            return <FoodItem key={item} foodItemName={item} />
-        })}
-    </ul>
+    <GroceryList
+     parentComponent="groceries"
+     groceryItemsList={this.props.groceryItemsList}
+     handleDecrement={this.props.handleDecrement}
+     handleIncrement={this.props.handleIncrement}
+    />
    </div>
   );
  }

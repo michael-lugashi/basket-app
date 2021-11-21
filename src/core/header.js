@@ -1,12 +1,8 @@
 import React from 'react';
-import '../styles/header.css'
-import basket from '../assets/shopping-basket-img.png'
+import '../styles/header.css';
+import basket from '../assets/shopping-basket-img.png';
 
 class Header extends React.Component {
- //   constructor(props) {
- //     super(props);
- //     this.state = { color: props.color, onClickFunc: props.functionFromFather };
- //   }
  render() {
   return (
    <div>
