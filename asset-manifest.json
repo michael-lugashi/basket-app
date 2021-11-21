@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/basket-app/static/css/main.ab347106.chunk.css",
+    "main.js": "/basket-app/static/js/main.740eb867.chunk.js",
+    "main.js.map": "/basket-app/static/js/main.740eb867.chunk.js.map",
+    "runtime-main.js": "/basket-app/static/js/runtime-main.2d6af7bc.js",
+    "runtime-main.js.map": "/basket-app/static/js/runtime-main.2d6af7bc.js.map",
+    "static/js/2.d5f95eb9.chunk.js": "/basket-app/static/js/2.d5f95eb9.chunk.js",
+    "static/js/2.d5f95eb9.chunk.js.map": "/basket-app/static/js/2.d5f95eb9.chunk.js.map",
+    "index.html": "/basket-app/index.html",
+    "static/css/main.ab347106.chunk.css.map": "/basket-app/static/css/main.ab347106.chunk.css.map",
+    "static/js/2.d5f95eb9.chunk.js.LICENSE.txt": "/basket-app/static/js/2.d5f95eb9.chunk.js.LICENSE.txt",
+    "static/media/shopping-basket-img.6dcdea10.png": "/basket-app/static/media/shopping-basket-img.6dcdea10.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2d6af7bc.js",
+    "static/js/2.d5f95eb9.chunk.js",
+    "static/css/main.ab347106.chunk.css",
+    "static/js/main.740eb867.chunk.js"
+  ]
+}
